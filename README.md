@@ -1,6 +1,6 @@
-# Simple Dashboard Design
+# Responsive Dashboard Design
 
-A simple dashboard design to display statistics for a commerce website like users, posts, products, prices, and revenue.
+A responsive dashboard design to display statistics for a commerce website like users, posts, products, prices, and revenue.
 
 🤝 Contributing
 
