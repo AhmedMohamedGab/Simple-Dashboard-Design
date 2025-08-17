@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #fff;
+}
+body {
+  height: 100vh;
+  background-color: #001;
+  display: flex;
+}
+.menu {
+  width: 60px;
+  height: 94%;
+  background-color: #123;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 40px;
+  overflow: hidden;
+  transition: 0.5s;
+  flex-shrink: 0;
+}
+.menu:hover {
+  width: 250px;
+}
+ul {
+  /* background-color: #ad07077e; */
+  list-style: none;
+  height: 97%;
+  position: relative;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.profile img {
+  width: 50px;
+  border-radius: 50%;
+  border: solid 3px white;
+}
+.profile h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+li > a {
+  display: block;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  transition: background-color 0.5s;
+}
+li a:hover,
+.data-info .box:hover,
+table tbody tr td:hover {
+  background-color: #ffffff55;
+}
+li a i {
+  font-size: 30px;
+}
+.log-out {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.log-out a {
+  background-color: #a00;
+}
+/* ********************************************** */
+.content {
+  /* background-color: #fff; */
+  width: 100%;
+  margin: 10px;
+}
+.title-info {
+  background-color: #0080ff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.data-info {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.data-info .box {
+  background-color: #123;
+  height: 150px;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+.data-info .box i {
+  font-size: 40px;
+}
+.data-info .box .data {
+  text-align: center;
+}
+.data-info .box span {
+  font-size: 30px;
+}
+/* ********************************************** */
+table {
+  width: 100%;
+  border-spacing: 5px;
+}
+table thead {
+  background-color: #0080ff;
+}
+table tbody {
+  background-color: #123;
+}
+table thead tr th,
+table tbody tr td {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+.price {
+  background-color: #0a0;
+  padding: 5px;
+  border-radius: 5px;
+}
+.count {
+  background-color: #dd0;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
